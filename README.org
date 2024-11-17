@@ -6,4 +6,5 @@ Repozytorium na kod z ćwiczeń, projektów itd. z uczelni AHE.
 
 * Rok I
 Algorytmy i struktury danych - [[file:Algorytmy i struktury danych/][Tutaj]]
+
 Podstawy programowania I - [[file:Podstawy Programowania I/][Tutaj]]
