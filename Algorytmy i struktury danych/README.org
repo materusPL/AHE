@@ -4,4 +4,4 @@
 ** Zadanie 1
 Program na rozwiązywanie równania kwadratowego.
 
-[[file:Pascal/AiSD5_C2 Ćwiczenie 2/zad1_rownanie_kwadratowe.pas][Pascal]] [[file:Python/AiSD5_C2 Ćwiczenie 2/zad1_rownanie_kwadratowe.py][Python]]
+[[./Pascal/AiSD5_C2 Ćwiczenie 2/zad1_rownanie_kwadratowe.pas][Pascal]] [[./Python/AiSD5_C2 Ćwiczenie 2/zad1_rownanie_kwadratowe.py][Python]]
