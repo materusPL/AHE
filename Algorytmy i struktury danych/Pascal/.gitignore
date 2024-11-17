@@ -1,0 +1,6 @@
+*
+
+!.gitignore
+!**/
+!*.pas
+.#*.pas
