@@ -17,10 +17,4 @@ else:
         print('Dwa pierwiastki\n', x1,'\n', x2)
     else:
         x=b/(2*a)
-        print('Jeden pierwiastek\n',x);
-
-        
-        
-
-        
-    
+        print('Jeden pierwiastek\n',x); 
