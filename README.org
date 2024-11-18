@@ -2,9 +2,9 @@
 #+DESCRIPTION: Archiwum ćwiczeń i projektów
 #+AUTHOR: Mateusz Słodkowicz
 
-Repozytorium na kod z ćwiczeń, projektów itd. z uczelni AHE.
+Repozytorium na kod z ćwiczeń, projektów itd. z uczelni [[https://www.ahe.lodz.pl/][AHE]].
 
 * Rok I
-Algorytmy i struktury danych - [[./Algorytmy i struktury danych/README.org][Link]]
+Algorytmy i struktury danych - [[./Algorytmy i struktury danych][Link]]
 
-Podstawy programowania I - [[./Podstawy Programowania I/README.org][Link]]
+Podstawy programowania I - [[./Podstawy Programowania I][Link]]
