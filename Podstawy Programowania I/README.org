@@ -1,46 +1,46 @@
 #+TITLE: Podstawy Programowania I
 #+AUTHOR: Mateusz Słodkowicz
-
+#+OPTIONS: \n:t
 Zadania/Ćwiczenia z przedmiotu Podstawy Programowania I
 
 * Zadania 1
 ** Zadanie 1
-Napisz program, który zapyta użytkownika o liczbę chłopców i dziewcząt zapisanych do klasy.\\
+Napisz program, który zapyta użytkownika o liczbę chłopców i dziewcząt zapisanych do klasy.
 Program powinien wyświetlać wartość procentową chłopców i dziewcząt w klasie.
 
 [[./Zadanie 1.1/zadanie1.cpp][C++]]
 ** Zadanie 2
-Kino przechowuje tylko pewien procent przychodu ze sprzedaży biletów. Reszta trafia do\\
+Kino przechowuje tylko pewien procent przychodu ze sprzedaży biletów. Reszta trafia do
 dystrybutora. Napisz program obliczający dochód kina i zysk kasy biletowej za dzień.
 
 Załóż, że kino zatrzymuje 20% zysku kasy biletowej
 
-Program powinien pytać ile zostało sprzedanych biletów dla dzieci i dorosłych. (Cena biletu dla\\
-dorosłych wynosi 10 zł, a dla dziecka 6 zł). Wyświetlony powinien zostać komunikat podobny do\\
+Program powinien pytać ile zostało sprzedanych biletów dla dzieci i dorosłych. (Cena biletu dla
+dorosłych wynosi 10 zł, a dla dziecka 6 zł). Wyświetlony powinien zostać komunikat podobny do
 poniższego:
 #+begin_quote
-Sprzedane bilety dla dorosłych:\\
-Sprzedane bilety dla dzieci:\\
-Zysk kasy brutto:\\
-Zysk kasy netto:\\
+Sprzedane bilety dla dorosłych:
+Sprzedane bilety dla dzieci:
+Zysk kasy brutto:
+Zysk kasy netto:
 Kwota zapłacona dystrybutorowi: 
 #+end_quote
 [[./Zadanie 1.1/zadanie2.cpp][C++]]
 ** Zadanie 3
-Zadeklarować trzy zmienne typu całkowitego. Wczytać dane. Obliczyć sumę tych liczb, ich średnią\\
+Zadeklarować trzy zmienne typu całkowitego. Wczytać dane. Obliczyć sumę tych liczb, ich średnią
 arytmetyczną i średnią harmoniczną. Wyświetlić wyniki. 
 
 [[./Zadanie 1.1/zadanie3.cpp][C++]]
 ** Zadanie 4
-Rowerzysta pokonuje drogę o długości d w trzech etapach. Przez d oznaczono całą długość drogi\\
+Rowerzysta pokonuje drogę o długości d w trzech etapach. Przez d oznaczono całą długość drogi
 przebytej przez rowerzystę. Przebyta droga i średnia prędkość w kolejnych etapach:
 #+begin_quote
-etap I 0,2 d 10 m/s\\
-etap II 0,5 d 5 m/s\\
+etap I 0,2 d 10 m/s
+etap II 0,5 d 5 m/s
 etap III 0,3 d 10 m/s
 #+end_quote
 
-Należy napisać program obliczający całkowity czas jazdy rowerzysty. Wyniki przeliczyć na godziny,\\
-minuty, sekundy.\\
-Wczytać długość drogi d, wyświetlić wyniki. \\
+Należy napisać program obliczający całkowity czas jazdy rowerzysty. Wyniki przeliczyć na godziny,
+minuty, sekundy.
+Wczytać długość drogi d, wyświetlić wyniki.
 [[./Zadanie 1.1/zadanie4.cpp][C++]]
