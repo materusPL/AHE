@@ -1,10 +1,10 @@
-program silnia;
+program silnia_czas;
 uses sysUtils;
 function Czytaj_liczbe: Int64;
 var
    liczba : Int64;
 begin
-   Write('Podaj liczbę calkowita: ');
+   Write('Podaj liczbe calkowita: ');
    ReadLn(liczba);
    Czytaj_liczbe := liczba;
 end;
@@ -46,7 +46,7 @@ var
    wynikI, wynikR : Int64;
 begin
    liczba := Czytaj_liczbe();
-   Write('Podaj liczbę iteracji: ');
+   Write('Podaj liczbe iteracji: ');
    ReadLn(ile);
    CzasI := Time();
    for i  := 0 to ile do
