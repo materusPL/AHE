@@ -84,7 +84,9 @@ Sprawdzić czy x jest liczbą nieparzystą. Wypisać odpowiedni komunikat.
 Nie wykonywać działań, kiedy pierwsza wczytana liczba będzie zerem.
 ** Zadanie 2
 Obliczyć wartość funkcji określonej wzorem:
+
 [[../resources/svg/pp1zad2.svg]]
+
 Dane: x – typu rzeczywistego
 ** Zadanie 3
 Napisać program pozwalający obliczyć
