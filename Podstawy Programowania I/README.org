@@ -75,6 +75,7 @@ Uwagi:
  * Program powinien czytelne wczytywanie danych i czytelne wypisywanie wyników.
  * W obliczeniach nie należy korzystać z  funkcji pow() 
  * Stała pi – M_PI należy dołączyć bibliotekę matematyczną #include <cmath>
+
 [[file:Zadanie 1.2/zadanie.cpp][C++]]
 
 ** Zadanie 1
