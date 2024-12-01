@@ -1,6 +1,7 @@
 #+TITLE: Podstawy Programowania I
 #+AUTHOR: Mateusz Słodkowicz
 #+OPTIONS: \n:t
+#+OPTIONS: tex:t
 Zadania/Ćwiczenia z przedmiotu Podstawy Programowania I
 
 
@@ -82,7 +83,7 @@ Sprawdzić czy x jest liczbą nieparzystą. Wypisać odpowiedni komunikat.
 Nie wykonywać działań, kiedy pierwsza wczytana liczba będzie zerem.
 ** Zadanie 2
 Obliczyć wartość funkcji określonej wzorem:
-
+#+BEGIN_LATEX
 \begin{eq}
 y(x) = 
 \begin{cases}
@@ -91,6 +92,7 @@ y(x) =
   -2x/3  & \text{dla pozostałych}
 \end{cases}
 \end{eq}
+#+END_LATEX
 
 Dane: x – typu rzeczywistego
 ** Zadanie 3
