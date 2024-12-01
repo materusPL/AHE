@@ -12,8 +12,8 @@ LaTeX dla [[../Podstawy Programowania I/README.org::*Zadanie 2][zadania]]
   -2x/3  & \text{dla pozostałych}
 } 
 \end{cases}
-\\
 }
+\\
 \end{document}
 #+end_src 
 
