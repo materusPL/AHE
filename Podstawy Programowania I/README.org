@@ -83,14 +83,14 @@ Sprawdzić czy x jest liczbą nieparzystą. Wypisać odpowiedni komunikat.
 Nie wykonywać działań, kiedy pierwsza wczytana liczba będzie zerem.
 ** Zadanie 2
 Obliczyć wartość funkcji określonej wzorem:
-#+BEGIN_COMMENT
+#+BEGIN_EXPORT LaTeX
 $$y(x) = 
 \begin{cases}
   \frac{3}{4} * x^{3} * \frac{7}{8} x & \text{dla x ∈ [-10, 0]} \\
   \frac{1}{sin(x) + 3} & \text{dla x ∈ (0, 4]} \\
   -2x/3  & \text{dla pozostalych}
 \end{cases}$$
-#+END_COMMENT
+#+END_EXPORT
 #+HTML: <img src="https://latex.codecogs.com/png.image?\inline&space;\large&space;\dpi{120}\bg{white}$$y(x)=\begin{cases}\frac{3}{4}*x^{3}*\frac{7}{8}x&\text{dla&space;x[-10,0]}\\\frac{1}{sin(x)&plus;3}&\text{dla&space;x(0,4]}\\-2x/3&\text{dla&space;pozostalych}\end{cases}$$" alt="LaTeX"\>
 
 Dane: x – typu rzeczywistego
