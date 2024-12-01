@@ -76,7 +76,7 @@ Uwagi:
  * W obliczeniach nie należy korzystać z  funkcji pow() 
  * Stała pi – M_PI należy dołączyć bibliotekę matematyczną #include <cmath>
 
-[[file:Zadanie 1.2/zadanie.cpp][C++]]
+[[./Zadanie 1.2/zadanie.cpp][C++]]
 
 ** Zadanie 1
 Wczytać dwie liczby typu całkowitego (x, y) i wypisać, która liczba jest większa a może są takie same. 
@@ -138,7 +138,7 @@ Program można rozbudować, dodając nowe opcje lub dokonać innych zmian. Nale�
 krótki opis programu.
 Na platformę przesłać main.cpp oraz plik z opisem programu, jeżeli w programie dokonano zmian.
 
-[[file:Projekt1/main.cpp][C++]] 
+[[./Projekt1/main.cpp][C++]] 
 
  
 
