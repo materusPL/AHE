@@ -1,0 +1,12 @@
+#+TITLE: AHE - Ćwiczenia i inne
+#+DESCRIPTION: Archiwum ćwiczeń i projektów
+#+AUTHOR: Mateusz Słodkowicz
+#+OPTIONS: \n:t
+#+LANGUAGE: pl
+Repozytorium na kod z ćwiczeń, projektów itd. z uczelni [[https://www.ahe.lodz.pl/][AHE]].
+W [[./org][org]] znajdują się pliki .org z których generowane są pliki README.md
+
+* Rok I
+Algorytmy i struktury danych - [[./Algorytmy i struktury danych][Link]]
+
+Podstawy programowania I - [[./Podstawy Programowania I][Link]]
