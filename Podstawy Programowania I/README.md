@@ -59,7 +59,7 @@ Należy napisać program obliczający całkowity czas jazdy rowerzysty. Wyniki p
 minuty, sekundy.  
 Wczytać długość drogi d, wyświetlić wyniki.  
 
-[C++](./Zadanie 1.1/zadanie4.cpp)  
+[C++](./Zadanie_1.1/zadanie4.cpp)  
 
 
 # Zadania 2
@@ -71,7 +71,7 @@ Uwagi:
 -   W obliczeniach nie należy korzystać z  funkcji pow()
 -   Stała pi – M<sub>PI</sub> należy dołączyć bibliotekę matematyczną #include <cmath>
 
-[C++](./Zadanie 1.2/zadanie.cpp)  
+[C++](./Zadanie_1.2/zadanie.cpp)  
 
 
 ## Zadanie 1
@@ -163,7 +163,7 @@ Uwagi:
 -   Czytelność komunikatów. Komunikaty powinny być krótkie, ale tak sformułowane, żeby nie było  
     wątpliwości, które zadanie jest wykonywane.
 
-[C++](./Zadanie 1.3/zadanie.cpp)  
+[C++](./Zadanie_1.3/zadanie.cpp)  
 
 
 ## Zadanie 1

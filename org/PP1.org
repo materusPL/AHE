@@ -57,7 +57,7 @@ Należy napisać program obliczający całkowity czas jazdy rowerzysty. Wyniki p
 minuty, sekundy.
 Wczytać długość drogi d, wyświetlić wyniki.
 
-[[./Zadanie 1.1/zadanie4.cpp][C++]]
+[[./Zadanie_1.1/zadanie4.cpp][C++]]
 
 * Zadania 2
 Uwagi:
@@ -66,7 +66,7 @@ Uwagi:
  * W obliczeniach nie należy korzystać z  funkcji pow() 
  * Stała pi – M_PI należy dołączyć bibliotekę matematyczną #include <cmath>
 
-[[./Zadanie 1.2/zadanie.cpp][C++]]
+[[./Zadanie_1.2/zadanie.cpp][C++]]
 
 ** Zadanie 1
 Wczytać dwie liczby typu całkowitego (x, y) i wypisać, która liczba jest większa a może są takie same. 
@@ -111,7 +111,7 @@ Uwagi:
   * Czytelność komunikatów. Komunikaty powinny być krótkie, ale tak sformułowane, żeby nie było
     wątpliwości, które zadanie jest wykonywane.
 
-[[./Zadanie 1.3/zadanie.cpp][C++]]
+[[./Zadanie_1.3/zadanie.cpp][C++]]
 
 ** Zadanie 1
 Funkcja, który wyświetli tabliczkę mnożenia liczb od 1 do n w następującej postaci
