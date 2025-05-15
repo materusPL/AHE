@@ -1,6 +1,8 @@
 #+TITLE: Algorytmy i Struktury Danych
 #+AUTHOR: Mateusz Słodkowicz
 #+OPTIONS: \n:t
+#+OPTIONS: tex:t
+#+OPTIONS: toc:nil
 #+LANGUAGE: pl
 #+EXPORT_FILE_NAME: ../Algorytmy i struktury danych/README.md
 #+PANDOC_OPTIONS: lua-filter:fix.lua
@@ -14,7 +16,7 @@ Program na rozwiązywanie równania kwadratowego.
 2. Na wejściu programu należy podać wartości a,b,c
 3. Na wyjściu program wypisuje komunikaty, opisane algorytmem
 
-[[./Pascal/AiSD5_C2 Ćwiczenie 2/zad1_rownanie_kwadratowe.pas][Pascal]] [[./Python/AiSD5_C2 Ćwiczenie 2/zad1_rownanie_kwadratowe.py][Python]]
+[[./Pascal/AiSD5_C2_Ćwiczenie_2/zad1_rownanie_kwadratowe.pas][Pascal]] [[./Python/AiSD5_C2_Ćwiczenie_2/zad1_rownanie_kwadratowe.py][Python]]
 
 * Ćwiczenie 2 - Zadanie 2
 *Definicja*
@@ -32,7 +34,7 @@ lub
   3) Procedura, której argumentami są: numer roku i wartość logiczna, wypisująca na konsoli, czy rok jest przestępny
   4) Procedura zawierająca w sobie wywołania pozostałych funkcji i procedur, która jest wywoływana z programu głównego.
 
-[[./Pascal/AiSD5_C2 Ćwiczenie 2/zad2_rok_przestepny.pas][Pascal]] [[./Python/AiSD5_C2 Ćwiczenie 2/zad2_rok_przestepny.py][Python]]
+[[./Pascal/AiSD5_C2_Ćwiczenie_2/zad2_rok_przestepny.pas][Pascal]] [[./Python/AiSD5_C2_Ćwiczenie_2/zad2_rok_przestepny.py][Python]]
 
 * Ćwiczenie 2 - Zadanie 3
 Obliczanie sumy cyfr
@@ -50,4 +52,4 @@ Obliczanie sumy cyfr
   3) Procedura wypisująca wynik obliczeń, której argumentami są: liczba całkowita i suma cyfr tej liczby
   4) Procedura zawierająca w sobie wywołania pozostałych funkcji i procedur, która jest wywoływana z programu głównego.
 
-[[./Pascal/AiSD5_C2 Ćwiczenie 2/zad3_suma_cyfr.pas][Pascal]] [[./Python/AiSD5_C2 Ćwiczenie 2/zad3_suma_cyfr.py][Python]]
+[[./Pascal/AiSD5_C2_Ćwiczenie_2/zad3_suma_cyfr.pas][Pascal]] [[./Python/AiSD5_C2_Ćwiczenie_2/zad3_suma_cyfr.py][Python]]
