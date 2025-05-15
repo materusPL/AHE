@@ -9,7 +9,7 @@ Zadania/Ćwiczenia z przedmiotu Podstawy Programowania I
 Napisz program, który zapyta użytkownika o liczbę chłopców i dziewcząt zapisanych do klasy.  
 Program powinien wyświetlać wartość procentową chłopców i dziewcząt w klasie.  
 
-[C++](Zadanie 1.1/zadanie1.cpp)  
+[C++](./Zadanie_1.1/zadanie1.cpp)  
 
 
 ## Zadanie 2
@@ -33,7 +33,7 @@ poniższego:
     
     Kwota zapłacona dystrybutorowi: 
 
-[C++](./Zadanie 1.1/zadanie2.cpp)  
+[C++](./Zadanie_1.1/zadanie2.cpp)  
 
 
 ## Zadanie 3
@@ -41,7 +41,7 @@ poniższego:
 Zadeklarować trzy zmienne typu całkowitego. Wczytać dane. Obliczyć sumę tych liczb, ich średnią  
 arytmetyczną i średnią harmoniczną. Wyświetlić wyniki.  
 
-[C++](./Zadanie 1.1/zadanie3.cpp)  
+[C++](./Zadanie_1.1/zadanie3.cpp)  
 
 
 ## Zadanie 4

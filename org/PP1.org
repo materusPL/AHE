@@ -13,7 +13,7 @@ Zadania/Ćwiczenia z przedmiotu Podstawy Programowania I
 Napisz program, który zapyta użytkownika o liczbę chłopców i dziewcząt zapisanych do klasy.
 Program powinien wyświetlać wartość procentową chłopców i dziewcząt w klasie.
 
-[[file:Zadanie 1.1/zadanie1.cpp][C++]]
+[[./Zadanie_1.1/zadanie1.cpp][C++]]
 ** Zadanie 2
 Kino przechowuje tylko pewien procent przychodu ze sprzedaży biletów. Reszta trafia do
 dystrybutora. Napisz program obliczający dochód kina i zysk kasy biletowej za dzień.
@@ -34,13 +34,13 @@ Zysk kasy netto:
 
 Kwota zapłacona dystrybutorowi: 
 #+end_example
-[[./Zadanie 1.1/zadanie2.cpp][C++]]
+[[./Zadanie_1.1/zadanie2.cpp][C++]]
 
 ** Zadanie 3
 Zadeklarować trzy zmienne typu całkowitego. Wczytać dane. Obliczyć sumę tych liczb, ich średnią
 arytmetyczną i średnią harmoniczną. Wyświetlić wyniki. 
 
-[[./Zadanie 1.1/zadanie3.cpp][C++]]
+[[./Zadanie_1.1/zadanie3.cpp][C++]]
 
 ** Zadanie 4
 Rowerzysta pokonuje drogę o długości d w trzech etapach. Przez d oznaczono całą długość drogi
