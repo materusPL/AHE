@@ -1,0 +1,100 @@
+#+TITLE: Podstawy Programowania II
+#+AUTHOR: Mateusz Słodkowicz
+#+OPTIONS: \n:t
+#+OPTIONS: tex:t
+#+OPTIONS: toc:nil
+#+LANGUAGE: pl
+#+EXPORT_FILE_NAME: ../Podstawy Programowania II/README.md
+#+PANDOC_OPTIONS: lua-filter:fix.lua
+
+Zadania/Ćwiczenia/Projekty z przedmiotu Podstawy Programowania II
+
+* Zadanie 2.1
+Zadeklarować dwie tablice jednowymiarowe A i B o rozmiarze n zdefiniowanym przez stałą.
+- Napisać funkcję, która wczytuje dane do tablicy. Wczytać dane do tablicy A i B.
+- Napisać funkcję, która wypisuje elementy tablicy na ekran. Wypisać elementy tablicy A i B.
+- Napisać funkcję, która oblicza i zwraca iloczyn elementów różnych od zera. Obliczenia wykonać dla tablicy A. Wyświetlić wynik.
+- Napisać funkcję, która oblicza i zwraca średnią elementów w tablicy. Obliczenia wykonać dla tablicy B. Wyświetlić wynik.
+- Napisać funkcję, która oblicza i zwraca maksymalny element w tablicy i indeks, na którym ten element wystąpił. Obliczenia wykonać dla tablicy A. Wyświetlić wyniki. 
+
+* Zadanie 2.1B
+** 1
+Dana jest tablica A 9 – elementową typu całkowitego.
+  a. wczytać z klawiatury elementy tej tablicy
+  b. napisać obliczyć element minimalny i podać ile razy on wystąpił w tablicy 
+** 2
+Zadeklarować tablicę X 15 –to elementową liczb całkowitych.
+Tablicę wypełnić liczbami losowymi z przedziału <5, 30>.
+Obliczyć odchylenie standardowe od średniej arytmetycznej danych zapisanych w tablicy.
+Odchyleniem standardowym nazywamy średnią kwadratową odchyleń od średniej arytmetycznej. 
+
+$$
+\large {\sigma = \sqrt{\frac{1}{N}\sum^{N}_{i=0} (x[i] - sr)^2}}
+$$
+
+gdzie sr - średnia arytmetyczna
+Wynik wypisać
+
+** 3
+Napisz dla producenta chipsów program do rejestrowania sprzedaży pięciu rodzajów sosów:
+łagodnego, ostrego, kwaśnego, słodkiego i pikantnego.
+W programie zastosuj dwie równoległe tablice złożone z pięciu elementów każda: jedną typu string
+zawierającą nazwy sosów i drugą typu int zawierającą liczbę sprzedanych w ostatnim miesiącu
+pojemników sosów każdego rodzaju.
+Nazwy sosów niech będą zapisane w definicji tablicy w liście inicjującej. Program powinien prosić
+użytkownika o podanie liczby sprzedanych pojemników sosów każdego rodzaju, a następnie
+wyświetlać raport zawierający liczbę sprzedanych pojemników sosów każdego rodzaju, całkowitą
+liczbę sprzedanych pojemników oraz nazwy sosów, których sprzedało się najwięcej i najmniej.
+/Weryfikacja poprawności wprowadzanych danych: liczba pojemników nie może być ujemna./
+
+/Uwagi:/
+  1. /Wszystkie zadania, należy napisać w jednym programie, zadania realizowane kolejno./
+  2. /Punkt 1 i 2 napisać z użyciem funkcji./
+  3. /W programie proszę nie korzystać z klasy vector/
+* Zadanie 2.2
+Potrzebny jest programu przetwarzającego informacje o pogodzie za trzy letnie miesiące
+minionego roku. Każdy dzień powinien być oznaczony jako deszczowy ('D'), pochmurny ('P')
+lub słoneczny ('S'). Napisz program zapisujący te informacje w tablicy typu char o wymiarach
+3×30 elementów, w której wiersze reprezentują kolejne miesiące (0 – czerwiec, 1 – lipiec, 2 –
+sierpień), a kolumny — dni miesiąca. Pomijany jest 31 dzień miesiąca.
+Program powinien losowo wypełnić tablicę, a następnie wyświetlać raport zawierający liczbę
+dni deszczowych, pochmurnych i słonecznych w poszczególnych miesiącach i w całym
+trzymiesięcznym okresie.
+Raport powinien zawierać również nazwę miesiąca, w którym było najwięcej dni deszczowych. 
+* Zadanie 2.20
+- Zadeklarować strukturę Punkt mającą pola: x, y typu double, odl (odległość od początku
+  układu współrzędnych) typu double.
+  Wczytać N i zadeklarować dynamicznie N elementową tablicę typu Punkt.
+- Napisać funkcję, która wypełnia tablicę punktów danymi w następujący sposób: x, y są
+  liczbami losowymi ze zbioru {-10, -9.9,…,-0.1, 0, 0.1, 0.2, 0.3, …,9.9, 10}, odległość (odległość
+  punktu od środka układu współrzędnych) jest obliczana za pomocą funkcji.
+- Napisać funkcję, która policzy ile punktów jest w każdej ćwiartce.
+  Wypisać wyniki (można dodatkowo przedstawić w postaci histogramu).
+- Wczytać promień okręgu R. Napisać funkcję, która obliczy i zwróci ile punktów znajduje się
+  wewnątrz okręgu o podanym promieniu. Wypisać obliczoną wartość.
+- Napisać funkcję, która wypisuje na ekran punkty spełniające powyższy warunek. Danego
+  jednego punktu powinny być zapisywane w jednej linii, z dokładnością 2 miejsc po kropce. 
+*Uwagi*:
+- Odległość punkt od środka układu współrzędnych obliczana ze wzoru $odl = \sqrt{x^2 + y^2}$
+- Interakcję z użytkownikiem (wyświetlanie, pobieranie danych) należy umieścić wyłącznie w funkcji main(). 
+  Oczywiście wyjątek stanowi funkcja specjalnie przeznaczona do wyświetlania danych.
+- Program powinien wyświetlać czytelne i jasne komunikaty.
+- Nie należy używać zmiennych globalnych. 
+
+* Projekt 1
+Grupę 60 osób poproszono o ocenę gry komputerowej. Każda osoba mogła przyznać ocenę od 0 do 10.
+Zadeklarować N –elementową np. 60-elementową tablicę typu int.
+1. Wylosować elementy tej tablicy z przedziału <0, 10>.
+2. Wypisać wylosowaną tablicę.
+3. Obliczyć średnią ocenę.
+4. Obliczyć medianę (środkowa wartość w posortowanej tablicy, w przypadku parzystej liczby elementów
+tablicy jest to średnia dwóch środkowych wartości).
+5. Obliczyć ile osób przyznało każdą z ocen. W tym celu zadeklarować 11 -to elementową tablicę ocena, i-ty
+element tej tablicy zawiera liczbę osób, które przyznały taką ocenę.
+6. Obliczyć która ocena była przyznana największą ilość razy. Jeżeli było kilka takich ocen wypisać wszystkie.
+7. Narysować histogram złożony z '*' (Histogram pokazuje liczebności poszczególnych grup).
+
+*Uwagi*:
+- Program podzielić na funkcje.
+- Program powinny wyświetlać czytelne i jednoznaczne komunikaty zarówno na etapie wprowadzania danych,
+  jak i wyświetlania ich na ekranie 
